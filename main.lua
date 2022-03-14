@@ -27,7 +27,7 @@ drawScore()
 
 end
 
-function drawScore()
+function drawScore() -- Desenha o score na tela
 love.graphics.setFont(font)
     love.graphics.print("Player: " ..Score.player, 50, 10)
     love.graphics.print("AI: " ..Score.ai, 600, 10)
